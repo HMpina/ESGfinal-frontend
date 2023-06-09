@@ -1,0 +1,59 @@
+.yellow-icon {
+    color: #EAC338;
+  }
+  
+  .red-icon {
+    color: #F42D45;
+  }
+  
+  .blue-icon {
+    color: #008EDE;
+  }
+  
+  .clickable-card:hover{
+    cursor: pointer;
+    background-image: url('../../assets/images/healthFood.jpg');
+  }
+
+  .card-geral{
+    min-width: 300px;
+    margin: 20px;
+    border: 0;
+    box-shadow: 0 4px 6px #2323235b;
+    background-size: cover;
+    background-position: center;
+    min-height:150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-mindfullness{
+    background-image: url('../../assets/images/zen.jpg');
+  }
+  .card-food{
+    background-image: url('../../assets/images/healthFood.jpg');
+  }
+  .card-exercise{
+    background-image: url('../../assets/images/exercise.jpg');
+  }
+  .card-ponto{
+    background-image: url('../../assets/images/study.jpg');
+  }
+  
+  .card-text{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;  
+    color: #fff;
+  }
+  
+  .card-bg{
+    width: 50%;
+    background-color: #105947d4;
+  }
+
+  .card-2{
+    min-width: 100%;
+  }

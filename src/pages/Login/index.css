@@ -1,0 +1,79 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.login-page-bg {
+  background-image: url('../..//assets/images/Wave.svg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+}
+
+.login-card {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #232323;
+  color: #fff;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #B7B7B7;
+  pointer-events: none;
+}
+
+.input-icon input:not(:placeholder-shown) + i {
+  display: none;
+}
+
+.input-icon input:placeholder-shown + i {
+  display: inline-block;
+}
+
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-link{
+  color: #28977B;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+.forgot-link:hover{
+  color: #105947;
+  font-size: 80%;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #28977B;
+  border: 0;
+}
+.login-button:hover {
+  background-color: #105947;
+  border: 0;
+}
+
+.image-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo{
+  height: 100px;
+}
